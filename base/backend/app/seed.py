@@ -2,7 +2,7 @@
 from datetime import date
 from decimal import Decimal
 
-from app.db import SessionLocal
+from app.db.session import SessionLocal
 from app.models.Category import Category
 from app.models.Author import Author
 from app.models.Publisher import Publisher
